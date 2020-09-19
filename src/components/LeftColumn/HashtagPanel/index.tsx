@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 import Panel from '../../Panel';
 
 import { Container, HashtagIcon } from './styles';

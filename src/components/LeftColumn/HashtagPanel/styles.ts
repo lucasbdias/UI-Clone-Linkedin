@@ -2,7 +2,10 @@ import styled from 'styled-components';
 import { FaHashtag } from 'react-icons/fa';
 
 export const Container = styled.div`
-  > div {
+  position: sticky;
+  top: 64px; 
+
+  > div { 
     margin-top: 8px;
     display: flex;
     flex-direction: column;

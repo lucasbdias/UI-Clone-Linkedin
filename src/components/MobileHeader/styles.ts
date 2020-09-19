@@ -5,7 +5,7 @@ export const Container = styled.div`
   background: var(--color-link);
   padding: 0 16px;
 
-  height: 48px;
+  height: 48px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +26,7 @@ export const ProfileCircle = styled.img`
   height: 28px;
   border-radius: 50%;
   border: 1px solid var(--color-icons);
+  flex-flex-shrink: 0;
 `;
 
 export const SearchInput = styled.input`
