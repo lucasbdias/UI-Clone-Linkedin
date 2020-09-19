@@ -25,7 +25,13 @@ export const Container = styled.div`
         height: 12px;
 
 
-        &:nth-child()
+        &:nth-child(2) {
+          width: 60%;
+        }
+        &:nth-child(3) {
+          width: 50%;
+          margin-top: 10px;
+        }
       }
     }
   }
